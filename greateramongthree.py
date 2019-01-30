@@ -1,9 +1,9 @@
-n=int(input()) 
-m=int(input()) 
-o=int(input())
-if n>m and n>0:
-	 print(n)
-if m>n and m>o:
-	 print(m)
+n1=int(input()) 
+n2=int(input()) 
+n3=int(input())
+if n1>n2 and n1>n3:
+     print(n1)
+if n2>n3:
+    print(n2)
 else:
-	 print(o)
+     print(n3)
